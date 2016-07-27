@@ -2,7 +2,11 @@ var questionNum = 0;							// keep count of question, used for IF condition.
 var question = '<h1>what is your name?</h1>';		     // first question
 
 var output = document.getElementById('output');		     // store id="output" in output variable
-output.innerHTML = question;						     // ouput first question
+output.innerHTML = question;                            // ouput first question
+
+function test() {
+    alert("This is just a test. Thou shalt not call this function.");
+}
 
 function bot() { 
     var input = document.getElementById("input").value;
