@@ -37,6 +37,8 @@ function bot() {
 
 function timedQuestion() {
     output.innerHTML = question;				// outputs the next question. ready to take a new response.
+    document.getElementById('output').addClass("active");
+    document.getElementById('output').removeClass("active");
 }
 
 //push enter key (using jquery), to run bot function.

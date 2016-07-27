@@ -25,6 +25,13 @@ p {
     margin-top: 100px;
 }
 
+#output {
+    transition: all 1s;
+}
+
+#output.active {
+    color: #f0db4f;
+}
 
 input {
     background-color: #eee;
