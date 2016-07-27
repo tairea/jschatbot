@@ -27,6 +27,7 @@ p {
 
 #output {
     transition: all 1s;
+    color: #000000;
 }
 
 #output.active {
